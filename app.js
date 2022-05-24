@@ -7,15 +7,15 @@ const rideElem = document.getElementById("ride");
 const snareElem = document.getElementById("snare");
 const tinkElem = document.getElementById("tink");
 const tomElem = document.getElementById("tom");
-const boomAudio = new Audio("/sounds/boom.wav");
-const clapAudio = new Audio("/sounds/clap.wav");
-const hihatAudio = new Audio("/sounds/hihat.wav");
-const kickAudio = new Audio("/sounds/kick.wav");
-const openhatAudio = new Audio("/sounds/openhat.wav");
-const rideAudio = new Audio("/sounds/ride.wav");
-const snareAudio = new Audio("/sounds/snare.wav");
-const tinkAudio = new Audio("/sounds/tink.wav");
-const tomAudio = new Audio("/sounds/tom.wav");
+const boomAudio = new Audio("sounds/boom.wav");
+const clapAudio = new Audio("sounds/clap.wav");
+const hihatAudio = new Audio("sounds/hihat.wav");
+const kickAudio = new Audio("sounds/kick.wav");
+const openhatAudio = new Audio("sounds/openhat.wav");
+const rideAudio = new Audio("sounds/ride.wav");
+const snareAudio = new Audio("sounds/snare.wav");
+const tinkAudio = new Audio("sounds/tink.wav");
+const tomAudio = new Audio("sounds/tom.wav");
 
 const playSound = (audio, element) => {
     animate(element);
